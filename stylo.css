@@ -1,0 +1,22 @@
+div.foncol {
+    background-image: repeating-linear-gradient(orange, yellow 10%, green 20px);
+}
+
+li.piet {
+    background-image: linear-gradient (top left, red 50%, violet 30%, red 20%);
+}
+
+li.piet02 {
+    background-image: linear-gradient( red 0%, orange 10%, orange 30%, yellow 50%, yellow 70%, green 90%, green 100%);
+}
+
+li.piet03 {
+    color: white;
+    border: 0;
+    cursor: pointer;
+    padding: 0.5em 1.25em;
+    background: linear-gradient (90deg, #ee6352, purple, #ee6352);
+    background-size: 300%;
+    background-position: left;
+    transition: background-position 350ms;
+}
